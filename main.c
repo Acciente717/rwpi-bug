@@ -1,8 +1,8 @@
-extern volatile int vola1;
-extern volatile int vola2;
-extern volatile int vola3;
-extern volatile int vola4;
-extern volatile int vola5;
+volatile int vola1 = 0;
+volatile int vola2 = 0x2333;
+volatile int vola3 = 0x3742;
+volatile int vola4 = 0x4444;
+volatile int vola5 = 0;
 
 int main(void) {
     vola1 += 1;
